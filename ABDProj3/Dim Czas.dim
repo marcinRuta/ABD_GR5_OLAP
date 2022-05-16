@@ -1,0 +1,255 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="08d949b7-f78c-4ad9-89d0-cfd867d0c252" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Czas</ID>
+  <Name>Dim Czas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2467" scrolltop="-319" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17092" y="21008" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCzas" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4815" height="7354" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000cf120000ba1c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCzas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2467</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-319</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a5c47dd3-dcde-40c6-b80c-524f10b8c437">
+    <DataSourceViewID>Tranzakcje</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="40b7789d-ed71-45b8-b29c-ca179505f604">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1d95dcbf-abdc-4d75-9c1c-42fd53738256">
+      <ID>Id Czasu</ID>
+      <Name>Id Czasu</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="82554281-55a9-4eb7-ae4c-6470b4ff4563">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d7a622a7-8fda-42ba-a444-98ddc80e3e71">
+            <TableID>dbo_DimCzas</TableID>
+            <ColumnID>IdCzasu</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="baf1925a-4f21-4193-8133-67cdf84a143d">
+          <AttributeID>Data</AttributeID>
+          <Name>Data</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ab3fb2f0-6db8-4e85-b780-6fec37d5ee5c">
+          <AttributeID>Rok</AttributeID>
+          <Name>Rok</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7af75b46-bc37-4da4-9fa0-38cbba8c356e">
+          <AttributeID>Dzien Miesiaca</AttributeID>
+          <Name>Dzien Miesiaca</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="67a2bc84-40f6-41bb-bb2f-3e984d6bfe7a">
+          <AttributeID>Nazwa Dnia Tygodnia Pol</AttributeID>
+          <Name>Nazwa Dnia Tygodnia Pol</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3719879a-b1d0-436d-80c1-d2b7bf5a4514">
+          <AttributeID>Nazwa Miesiaca Pol</AttributeID>
+          <Name>Nazwa Miesiaca Pol</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c3b4dc15-e4b7-43ee-8a9b-e6af2eb922e3">
+          <AttributeID>Nazwa Kwartału</AttributeID>
+          <Name>Nazwa Kwartału</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0a2c347c-1583-4ca9-9073-b493aff28ebf">
+      <ID>Data</ID>
+      <Name>Data</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bc38877c-3599-4f17-b90d-6e755a6566d1">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9371d8fb-aedb-4979-8259-811dc8f50865">
+            <TableID>dbo_DimCzas</TableID>
+            <ColumnID>Data</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9fd3a644-301e-4d1e-afd5-9f69e749ad4c">
+      <ID>Rok</ID>
+      <Name>Rok</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c989952f-dd6e-4c72-b147-240c4b78482f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="628b97e8-5db3-48d9-a2a7-95c8916f7730">
+            <TableID>dbo_DimCzas</TableID>
+            <ColumnID>Rok</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="de3d75fa-37c2-4c86-b023-0adbdcfe2635">
+      <ID>Dzien Miesiaca</ID>
+      <Name>Dzień Miesiaca</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="442d0a01-0a9c-42f1-b43e-118dcce21e6a">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="20bafa09-0267-4118-99b3-bab528a17ee7">
+            <TableID>dbo_DimCzas</TableID>
+            <ColumnID>DzienMiesiaca</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4d810277-f7bb-47fb-a389-5e883fcb54ab">
+      <ID>Nazwa Dnia Tygodnia Pol</ID>
+      <Name>Dzień Tygodnia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="81d551e0-734b-41ad-8cd5-23fb1770ce48">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b3339de5-9285-4c54-bec7-dc2d78700c05">
+            <TableID>dbo_DimCzas</TableID>
+            <ColumnID>NazwaDniaTygodniaPol</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="593c183a-44f3-4605-8ad7-5e2ac5933b2b">
+      <ID>Nazwa Miesiaca Pol</ID>
+      <Name>Miesiąc</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="633eae3d-2938-4005-848a-cbcd7fc23e3d">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fb16cda1-76be-44dd-86f1-5b309be3f014">
+            <TableID>dbo_DimCzas</TableID>
+            <ColumnID>NazwaMiesiacaPol</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4820a9ae-e7f3-4a73-9c6b-5c26649fe183">
+      <ID>Nazwa Kwartału</ID>
+      <Name>Nazwa Kwartału</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9a40eadd-b5f6-4929-af31-78631946276a">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="13e3b15f-5674-4769-94ca-44bdabbf6a37">
+            <TableID>dbo_DimCzas</TableID>
+            <ColumnID>Nazwa_x0020_Kwartału</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b75fffd0-1690-4988-941c-ba405a237150">
+        <DataType>WChar</DataType>
+        <DataSize>8</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9424e4fd-1a7b-465b-92fc-f05aff9b0712">
+          <TableID>dbo_DimCzas</TableID>
+          <ColumnID>Nazwa_x0020_Kwartału</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="cf8826f2-1435-446f-a082-17264db305b8">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchia Czasu</Name>
+      <Levels>
+        <Level dwd:design-time-name="a5b1347c-ad7d-46e1-84cb-0fa536854333">
+          <ID>Rok</ID>
+          <Name>Rok</Name>
+          <SourceAttributeID>Rok</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="74df3592-5676-41c9-88c1-43343c0e1f4f">
+          <ID>Nazwa Kwartału</ID>
+          <Name>Nazwa Kwartału</Name>
+          <SourceAttributeID>Nazwa Kwartału</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="92fd1122-ee61-4252-af84-f1cf5cb754f9">
+          <ID>Miesiąc</ID>
+          <Name>Miesiąc</Name>
+          <SourceAttributeID>Nazwa Miesiaca Pol</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8e0d68f5-99f7-4133-b228-3cf32ee6cda0">
+          <ID>Dzień Tygodnia</ID>
+          <Name>Dzień Tygodnia</Name>
+          <SourceAttributeID>Nazwa Dnia Tygodnia Pol</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

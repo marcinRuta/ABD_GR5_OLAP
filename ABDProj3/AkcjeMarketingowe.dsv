@@ -1,0 +1,330 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3d2a2a67-7d56-4693-9c12-b48dbb829043" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>AkcjeMarketingowe</ID>
+  <Name>AkcjeMarketingowe</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-20853" scrolltop="-2045" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="52388" y="22331" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fakt Akcji" left="119" top="7400" logicalid="9" controlid="1" masterid="0" hint1="0" hint2="0" width="4101" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00000510000043110000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_FaktAkcji" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Opis Akcji" left="555" top="14219" logicalid="10" controlid="2" masterid="0" hint1="0" hint2="0" width="3228" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00009c0c0000f40d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DimOpisAkcjMarketingowej" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Czas" left="0" top="0" logicalid="11" controlid="3" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f310000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DimCzas" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Kanal Akcji" left="6620" top="7823" logicalid="12" controlid="4" masterid="0" hint1="0" hint2="0" width="3572" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f40d0000f40d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DimKanalAkcji" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1770" top="11519" logicalid="13" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Akcja_ma_szczegoly]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="2169" y="14219" />
+                    <point x="2169" y="11819" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1770" top="4501" logicalid="14" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Akcja_zakonczyla_sie]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="2169" y="5000" />
+                    <point x="2169" y="7400" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="2320" top="4501" logicalid="15" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Akcja_rozpoczela_sie]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="9" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="2719" y="5000" />
+                    <point x="2719" y="7400" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3920" top="9210" logicalid="16" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Akcja_ma_kanal]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="20" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6620" y="9609" />
+                    <point x="4220" y="9609" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-20853</DiagramViewPortLeft>
+            <DiagramViewPortTop>-2045</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>ABD GR05 DW</DataSourceID>
+  <Schema>
+    <xs:schema id="AkcjeMarketingowe" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="AkcjeMarketingowe" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="9d2a64b6-3cd0-46b4-afc6-9489d9ecbd30">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_FaktAkcji" msprop:design-time-name="ba1f2297-f9c2-4ac2-8aca-3c2002175ede" msprop:FriendlyName="Fakt Akcji" msprop:DbSchemaName="dbo" msprop:DbTableName="FaktAkcji" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IdAkcji" msprop:design-time-name="6c01a6bb-be98-41cd-8963-20620309dac9" msprop:DbColumnName="IdAkcji" msprop:FriendlyName="IdAkcji" type="xs:int" />
+                  <xs:element name="IdKanalu" msprop:design-time-name="bd637e64-f79e-4843-a482-56b6d004228b" msprop:DbColumnName="IdKanalu" msprop:FriendlyName="IdKanalu" type="xs:int" />
+                  <xs:element name="IdCzasuOd" msprop:design-time-name="fff51eaf-1363-444b-91f2-aba8fd63a9f3" msprop:DbColumnName="IdCzasuOd" msprop:FriendlyName="IdCzasuOd" type="xs:int" />
+                  <xs:element name="IdCzasuDo" msprop:design-time-name="7b0c28e7-60fb-4424-8a47-102e3f200199" msprop:DbColumnName="IdCzasuDo" msprop:FriendlyName="IdCzasuDo" type="xs:int" />
+                  <xs:element name="IloscWyswietlenKanalu" msprop:design-time-name="54750c14-328a-4350-a63f-7b62cb0abf07" msprop:DbColumnName="IloscWyswietlenKanalu" msprop:FriendlyName="IloscWyswietlenKanalu" type="xs:int" />
+                  <xs:element name="Koszt" msprop:design-time-name="eab1e4d5-9bd7-4761-8750-4ea6cccd740e" msprop:DbColumnName="Koszt" msprop:FriendlyName="Koszt" type="xs:decimal" />
+                  <xs:element name="DataUtworzenia" msprop:design-time-name="4f3d57ee-9ab7-487f-84fb-78ae8e08f7d6" msprop:DbColumnName="DataUtworzenia" msprop:FriendlyName="DataUtworzenia" type="xs:dateTime" />
+                  <xs:element name="DataModyfikacji" msprop:design-time-name="87b117b3-3b05-4a4c-b670-5676b361b0e9" msprop:DbColumnName="DataModyfikacji" msprop:FriendlyName="DataModyfikacji" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimOpisAkcjMarketingowej" msprop:design-time-name="4d5ac913-9c0f-45d6-8c09-a760602dbe76" msprop:FriendlyName="Opis Akcji" msprop:DbSchemaName="dbo" msprop:DbTableName="DimOpisAkcjMarketingowej" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IdAkcji" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="f28ddd92-9865-41f1-9e36-e2c28ff58387" msprop:DbColumnName="IdAkcji" msprop:FriendlyName="IdAkcji" type="xs:int" />
+                  <xs:element name="IdAkcjiT" msprop:design-time-name="865b7207-cf6b-48d8-9b6f-c1439e9fd88c" msprop:DbColumnName="IdAkcjiT" msprop:FriendlyName="IdAkcjiT" type="xs:int" />
+                  <xs:element name="CelAkcji" msprop:design-time-name="d4c83011-a8a9-4155-aa8d-1f34e779dd3e" msprop:DbColumnName="CelAkcji" msprop:FriendlyName="CelAkcji">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ObszarAkcji" msprop:design-time-name="0982789c-12b1-447a-a37b-48ec002f5288" msprop:DbColumnName="ObszarAkcji" msprop:FriendlyName="ObszarAkcji">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DataUtworzenia" msprop:design-time-name="34b95c92-3366-4d03-bd9f-8f768032e54f" msprop:DbColumnName="DataUtworzenia" msprop:FriendlyName="DataUtworzenia" type="xs:dateTime" />
+                  <xs:element name="DataModyfikacji" msprop:design-time-name="19dc2805-38d9-4b6c-83cf-8ada311d7779" msprop:DbColumnName="DataModyfikacji" msprop:FriendlyName="DataModyfikacji" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimCzas" msprop:design-time-name="46baef17-f2c4-43a6-a71c-143a6b331851" msprop:FriendlyName="Czas" msprop:DbSchemaName="dbo" msprop:DbTableName="DimCzas" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IdCzasu" msprop:design-time-name="176de1a9-38c6-460f-ba8b-0ca1325c002d" msprop:DbColumnName="IdCzasu" msprop:FriendlyName="IdCzasu" type="xs:int" />
+                  <xs:element name="Data" msprop:design-time-name="36346e7b-af1e-4f5a-8fc6-aa536d86aab6" msprop:DbColumnName="Data" msprop:FriendlyName="Data" type="xs:dateTime" />
+                  <xs:element name="Miesiac" msprop:design-time-name="9a3f4d1f-fa6c-4b7d-8cf1-4e0983d4a758" msprop:DbColumnName="Miesiac" msprop:FriendlyName="Miesiac" type="xs:short" />
+                  <xs:element name="Kwartal" msprop:design-time-name="1ac6e13f-1252-4284-8a45-3ec39a181be0" msprop:DbColumnName="Kwartal" msprop:FriendlyName="Kwartal" type="xs:short" />
+                  <xs:element name="Rok" msprop:design-time-name="84557dfb-840c-4b4a-b07f-400c7e41d77d" msprop:DbColumnName="Rok" msprop:FriendlyName="Rok" type="xs:int" />
+                  <xs:element name="DzienTygodnia" msprop:design-time-name="ef2bc1e1-ba4b-4ac0-a217-09b76ca20814" msprop:DbColumnName="DzienTygodnia" msprop:FriendlyName="DzienTygodnia" type="xs:short" />
+                  <xs:element name="DzienMiesiaca" msprop:design-time-name="748dec03-c4ea-427d-bc56-7dda0168513a" msprop:DbColumnName="DzienMiesiaca" msprop:FriendlyName="DzienMiesiaca" type="xs:short" />
+                  <xs:element name="NazwaDniaTygodniaPol" msprop:design-time-name="35da2b74-2ace-4d49-89c7-efab5eee1de2" msprop:DbColumnName="NazwaDniaTygodniaPol" msprop:FriendlyName="NazwaDniaTygodniaPol">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NazwaDniaTygodniaAng" msprop:design-time-name="976a3b6e-570c-402f-a11e-e3b5886b2f1e" msprop:DbColumnName="NazwaDniaTygodniaAng" msprop:FriendlyName="NazwaDniaTygodniaAng">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NazwaMiesiacaPol" msprop:design-time-name="dc47be6e-b69f-471a-9008-af2194db7b91" msprop:DbColumnName="NazwaMiesiacaPol" msprop:FriendlyName="NazwaMiesiacaPol">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NazwaMiesiacaAng" msprop:design-time-name="6f0994b7-9205-4bf1-bbcf-8cbdb8d85675" msprop:DbColumnName="NazwaMiesiacaAng" msprop:FriendlyName="NazwaMiesiacaAng">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DataUtworzenia" msprop:design-time-name="7fed1ee6-b51e-453e-90e6-5a4bd6e816aa" msprop:DbColumnName="DataUtworzenia" msprop:FriendlyName="DataUtworzenia" type="xs:dateTime" />
+                  <xs:element name="DataModyfikacji" msprop:design-time-name="9076c22e-cfbf-434e-82c8-ef9a837e01fc" msprop:DbColumnName="DataModyfikacji" msprop:FriendlyName="DataModyfikacji" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Nazwa_x0020_Kwartału" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="CASE&#xD;&#xA;WHEN Kwartal =1&#xD;&#xA;Then 'Pierwszy'&#xD;&#xA;WHEN Kwartal =2&#xD;&#xA;Then 'Drugi'&#xD;&#xA;WHEN Kwartal =3&#xD;&#xA;Then 'Trzeci'&#xD;&#xA;Else 'Czwarty'&#xD;&#xA;End" msprop:IsLogical="True" msprop:design-time-name="a7620a85-d7fb-4db4-9b58-357c59a9f7d4" msprop:DbColumnName="Nazwa Kwartału">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="8" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimKanalAkcji" msprop:design-time-name="d4af3cc4-2abe-4e16-8c52-8ee5aceb26be" msprop:FriendlyName="Kanal Akcji" msprop:DbSchemaName="dbo" msprop:DbTableName="DimKanalAkcji" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IdKanalu" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="7f3d2002-9c36-4321-876a-175a313faaba" msprop:DbColumnName="IdKanalu" msprop:FriendlyName="IdKanalu" type="xs:int" />
+                  <xs:element name="IdKanaluT" msprop:design-time-name="7ed2114f-200b-4994-a365-1bcc07bf677a" msprop:DbColumnName="IdKanaluT" msprop:FriendlyName="IdKanaluT" type="xs:int" />
+                  <xs:element name="TypKanalu" msprop:design-time-name="e6eac7f9-f953-410b-a6cb-95186e1b014f" msprop:DbColumnName="TypKanalu" msprop:FriendlyName="TypKanalu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="70" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="WplywNaOdbiorce" msprop:design-time-name="0d441c69-64a8-4b03-93cd-fc5bdd0fd4ea" msprop:DbColumnName="WplywNaOdbiorce" msprop:FriendlyName="WplywNaOdbiorce">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DataUtworzenia" msprop:design-time-name="0025befc-012d-47da-a32b-377f5c2c4ea7" msprop:DbColumnName="DataUtworzenia" msprop:FriendlyName="DataUtworzenia" type="xs:dateTime" />
+                  <xs:element name="DataModyfikacji" msprop:design-time-name="f3569480-59c7-4628-9a59-d395bf940179" msprop:DbColumnName="DataModyfikacji" msprop:FriendlyName="DataModyfikacji" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_FaktAkcji" />
+          <xs:field xpath="IdAkcji" />
+          <xs:field xpath="IdKanalu" />
+          <xs:field xpath="IdCzasuOd" />
+          <xs:field xpath="IdCzasuDo" />
+        </xs:unique>
+        <xs:unique name="dbo_DimOpisAkcjMarketingowej_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimOpisAkcjMarketingowej" />
+          <xs:field xpath="IdAkcji" />
+        </xs:unique>
+        <xs:unique name="dbo_DimCzas_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimCzas" />
+          <xs:field xpath="IdCzasu" />
+        </xs:unique>
+        <xs:unique name="dbo_DimKanalAkcji_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimKanalAkcji" />
+          <xs:field xpath="IdKanalu" />
+        </xs:unique>
+        <xs:keyref name="Akcja_ma_szczegoly" refer="dbo_DimOpisAkcjMarketingowej_Constraint1">
+          <xs:selector xpath=".//dbo_FaktAkcji" />
+          <xs:field xpath="IdAkcji" />
+        </xs:keyref>
+        <xs:keyref name="Akcja_zakonczyla_sie" refer="dbo_DimCzas_Constraint1">
+          <xs:selector xpath=".//dbo_FaktAkcji" />
+          <xs:field xpath="IdCzasuDo" />
+        </xs:keyref>
+        <xs:keyref name="Akcja_rozpoczela_sie" refer="dbo_DimCzas_Constraint1">
+          <xs:selector xpath=".//dbo_FaktAkcji" />
+          <xs:field xpath="IdCzasuOd" />
+        </xs:keyref>
+        <xs:keyref name="Akcja_ma_kanal" refer="dbo_DimKanalAkcji_Constraint1">
+          <xs:selector xpath=".//dbo_FaktAkcji" />
+          <xs:field xpath="IdKanalu" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <AkcjeMarketingowe xmlns="" />
+  </Schema>
+</DataSourceView>

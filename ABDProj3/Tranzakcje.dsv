@@ -1,0 +1,440 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d38cb81a-e56b-4fe8-b78d-3e99e04a1af5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Tranzakcje</ID>
+  <Name>Tranzakcje</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6056" scrolltop="-38" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="98" x="52388" y="22331" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Czas" left="5945" top="6898" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f310000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DimCzas" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Pracownik" left="0" top="13795" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="3545" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000d90d000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DimPracownik" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Klient" left="158" top="0" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="3228" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00009c0c000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DimKlient" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Tranzakcje" left="0" top="7400" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3545" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000d90d00009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_FactTransakcje" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3245" top="8999" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TranzakcjaJestWCzasie]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="22" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="5945" y="9398" />
+                    <point x="4745" y="9398" />
+                    <point x="4745" y="9397" />
+                    <point x="3545" y="9397" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1373" top="4501" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[KlientDokonujeTransakcji]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1772" y="5000" />
+                    <point x="1772" y="7400" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1373" top="11095" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[PracownikZawieraTransakcje]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1772" y="13795" />
+                    <point x="1772" y="11395" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-6056</DiagramViewPortLeft>
+            <DiagramViewPortTop>-38</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>98</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>ABD GR05 DW</DataSourceID>
+  <Schema>
+    <xs:schema id="Tranzakcje" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Tranzakcje" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="faae42d0-f1f7-41be-9909-fd7f9a03b6e9">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DimCzas" msprop:design-time-name="233be6b5-0143-4e35-b328-eb06f7587d7f" msprop:FriendlyName="Czas" msprop:DbSchemaName="dbo" msprop:DbTableName="DimCzas" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IdCzasu" msprop:design-time-name="f5c9a6a6-d79e-4eb5-ac4a-802e0cc7605f" msprop:DbColumnName="IdCzasu" msprop:FriendlyName="IdCzasu" type="xs:int" />
+                  <xs:element name="Data" msprop:design-time-name="e82cfb50-6cfa-49fc-976b-46844876befd" msprop:DbColumnName="Data" msprop:FriendlyName="Data" type="xs:dateTime" />
+                  <xs:element name="Miesiac" msprop:design-time-name="d54d8757-08d3-46eb-a52a-ff71fbb517a3" msprop:DbColumnName="Miesiac" msprop:FriendlyName="Miesiac" type="xs:short" />
+                  <xs:element name="Kwartal" msprop:design-time-name="03e69f95-62aa-4d51-8bc4-f1971e80a521" msprop:DbColumnName="Kwartal" msprop:FriendlyName="Kwartal" type="xs:short" />
+                  <xs:element name="Rok" msprop:design-time-name="22a160c8-1a77-4d9b-b6bd-3e5180ad04bb" msprop:DbColumnName="Rok" msprop:FriendlyName="Rok" type="xs:int" />
+                  <xs:element name="DzienTygodnia" msprop:design-time-name="ecfba86a-9230-45c5-a012-2827efbd6e37" msprop:DbColumnName="DzienTygodnia" msprop:FriendlyName="DzienTygodnia" type="xs:short" />
+                  <xs:element name="DzienMiesiaca" msprop:design-time-name="6b452df6-2dca-4727-92d7-633159965bc8" msprop:DbColumnName="DzienMiesiaca" msprop:FriendlyName="DzienMiesiaca" type="xs:short" />
+                  <xs:element name="NazwaDniaTygodniaPol" msprop:design-time-name="0c4c6d84-4567-4867-ac90-05533468a7b5" msprop:DbColumnName="NazwaDniaTygodniaPol" msprop:FriendlyName="NazwaDniaTygodniaPol">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NazwaDniaTygodniaAng" msprop:design-time-name="80f77340-e35b-4017-8d88-73d20086c73d" msprop:DbColumnName="NazwaDniaTygodniaAng" msprop:FriendlyName="NazwaDniaTygodniaAng">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NazwaMiesiacaPol" msprop:design-time-name="94117e47-8474-4a64-bb17-317f09cb87dd" msprop:DbColumnName="NazwaMiesiacaPol" msprop:FriendlyName="NazwaMiesiacaPol">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NazwaMiesiacaAng" msprop:design-time-name="82c22c8e-02d6-4fae-bb70-122e3e642bba" msprop:DbColumnName="NazwaMiesiacaAng" msprop:FriendlyName="NazwaMiesiacaAng">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DataUtworzenia" msprop:design-time-name="f725338d-a0a7-47f6-b261-3fa68ae7e1e9" msprop:DbColumnName="DataUtworzenia" msprop:FriendlyName="DataUtworzenia" type="xs:dateTime" />
+                  <xs:element name="DataModyfikacji" msprop:design-time-name="c6bb7b08-b0c3-4f85-b33a-7c1f009a4cc1" msprop:DbColumnName="DataModyfikacji" msprop:FriendlyName="DataModyfikacji" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Nazwa_x0020_Kwartału" msdata:ReadOnly="true" msprop:design-time-name="04ca7c6a-2870-43f0-adb3-fdacb672cdf1" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="Nazwa Kwartału" msprop:ComputedColumnExpression="CASE&#xD;&#xA;WHEN Kwartal =1&#xD;&#xA;Then 'Pierwszy'&#xD;&#xA;WHEN Kwartal =2&#xD;&#xA;Then 'Drugi'&#xD;&#xA;WHEN Kwartal =3&#xD;&#xA;Then 'Trzeci'&#xD;&#xA;Else 'Czwarty'&#xD;&#xA;End">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="8" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimPracownik" msprop:design-time-name="2b3475d3-3d78-43e2-952f-c0628aa99b26" msprop:FriendlyName="Pracownik" msprop:DbSchemaName="dbo" msprop:DbTableName="DimPracownik" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IdPracownika" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="abc70ff4-2c8a-4a4d-859a-b1a0818b9d8a" msprop:DbColumnName="IdPracownika" msprop:FriendlyName="IdPracownika" type="xs:int" />
+                  <xs:element name="IdPracownikaT" msprop:design-time-name="4caae1bf-7f18-47f0-891e-112864482a6b" msprop:DbColumnName="IdPracownikaT" msprop:FriendlyName="IdPracownikaT" type="xs:int" minOccurs="0" />
+                  <xs:element name="Imie" msprop:design-time-name="4f3a8013-9230-4a68-bf4c-681ba714ae7e" msprop:DbColumnName="Imie" msprop:FriendlyName="Imie">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Nazwisko" msprop:design-time-name="4874ef26-3b7d-4e8f-ad49-c84eda53ebcf" msprop:DbColumnName="Nazwisko" msprop:FriendlyName="Nazwisko">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DataUrodzenia" msprop:design-time-name="4209fb1d-6c99-4768-afec-2d7d8079160b" msprop:DbColumnName="DataUrodzenia" msprop:FriendlyName="DataUrodzenia" type="xs:dateTime" />
+                  <xs:element name="Pesel" msprop:design-time-name="1aabe9ec-d02e-4349-973b-a8f415ba0620" msprop:DbColumnName="Pesel" msprop:FriendlyName="Pesel" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AdresMailowy" msprop:design-time-name="274b93d8-32c6-4d9c-a507-fbeec6ea3dc3" msprop:DbColumnName="AdresMailowy" msprop:FriendlyName="AdresMailowy" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NumerTelefonu" msprop:design-time-name="67ef69ee-ddb4-465e-8d7a-83f539e03e76" msprop:DbColumnName="NumerTelefonu" msprop:FriendlyName="NumerTelefonu" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IdStanowiskaT" msprop:design-time-name="c4308086-c047-4803-94a2-ad6a17b2a5af" msprop:DbColumnName="IdStanowiskaT" msprop:FriendlyName="IdStanowiskaT" type="xs:int" />
+                  <xs:element name="NazwaStanowiska" msprop:design-time-name="64cc7789-8842-42f7-92cc-d03a57db6180" msprop:DbColumnName="NazwaStanowiska" msprop:FriendlyName="NazwaStanowiska">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IdAdresT" msprop:design-time-name="4bdb445d-b7a9-4764-bcc3-845dd4b9bb70" msprop:DbColumnName="IdAdresT" msprop:FriendlyName="IdAdresT" type="xs:int" />
+                  <xs:element name="Ulica" msprop:design-time-name="c18a9157-9912-4bbc-8af9-2a254a59c262" msprop:DbColumnName="Ulica" msprop:FriendlyName="Ulica">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Miasto" msprop:design-time-name="0596c0fe-0329-44cb-883b-031ffadda8ee" msprop:DbColumnName="Miasto" msprop:FriendlyName="Miasto">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="KodPocztowy" msprop:design-time-name="e3d8a3f5-2a65-4a67-b3cf-15636dab2e44" msprop:DbColumnName="KodPocztowy" msprop:FriendlyName="KodPocztowy">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NumerLokalu" msprop:design-time-name="1f5a0576-138f-4a64-8d94-bbd2c82bb340" msprop:DbColumnName="NumerLokalu" msprop:FriendlyName="NumerLokalu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="8" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DataUtworzenia" msprop:design-time-name="703a5dd5-461f-469f-b0dc-9ddc7c426e12" msprop:DbColumnName="DataUtworzenia" msprop:FriendlyName="DataUtworzenia" type="xs:dateTime" />
+                  <xs:element name="DataModyfikacji" msprop:design-time-name="d7ed858d-8d47-43dd-b28c-878f78647124" msprop:DbColumnName="DataModyfikacji" msprop:FriendlyName="DataModyfikacji" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Imię_x0020_i_x0020_Nazwisko" msdata:ReadOnly="true" msprop:design-time-name="0b3cd928-6635-47df-a061-50f824ce11d4" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="Imię i Nazwisko" msprop:ComputedColumnExpression="Imie +' ' + Nazwisko">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="61" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Sposób_x0020_Transakcji" msdata:ReadOnly="true" msprop:design-time-name="1dc0a175-fd69-40b5-b0f4-fd6fe99194e7" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="Sposób Transakcji" msprop:ComputedColumnExpression="CASE&#xD;&#xA;WHEN IdPracownikaT  is null&#xD;&#xA;then 'Internetowo'&#xD;&#xA;ELSE &#xD;&#xA; 'Stacjonarnie'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimKlient" msprop:design-time-name="d9ac8168-2e92-4ac2-a3d4-8b82893d8dd9" msprop:FriendlyName="Klient" msprop:DbSchemaName="dbo" msprop:DbTableName="DimKlient" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IdKlient" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="1e003939-462e-4c6b-9267-bd0abd0a268c" msprop:DbColumnName="IdKlient" msprop:FriendlyName="IdKlient" type="xs:int" />
+                  <xs:element name="IdKlientT" msprop:design-time-name="64181a70-20a3-40f9-83ab-4004249dd151" msprop:DbColumnName="IdKlientT" msprop:FriendlyName="IdKlientT" type="xs:int" />
+                  <xs:element name="Imie" msprop:design-time-name="17fb7a2f-be07-48dc-a0c1-0f1d1c13c25c" msprop:DbColumnName="Imie" msprop:FriendlyName="Imie">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Nazwisko" msprop:design-time-name="ff51829c-c7b5-48ae-a91a-8dce859b192a" msprop:DbColumnName="Nazwisko" msprop:FriendlyName="Nazwisko">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DataUrodzenia" msprop:design-time-name="98c9ea9e-c7d7-49ba-af64-00f92cab1745" msprop:DbColumnName="DataUrodzenia" msprop:FriendlyName="DataUrodzenia" type="xs:dateTime" />
+                  <xs:element name="Pesel" msprop:design-time-name="7a6814b0-d9cd-406e-a99f-200c70b4ca28" msprop:DbColumnName="Pesel" msprop:FriendlyName="Pesel" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AdresMailowy" msprop:design-time-name="b038bef5-ce5e-4127-9eae-67c54801e8fe" msprop:DbColumnName="AdresMailowy" msprop:FriendlyName="AdresMailowy" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NumerTelefonu" msprop:design-time-name="97fe9fec-cba6-44ca-b923-7975251e80fb" msprop:DbColumnName="NumerTelefonu" msprop:FriendlyName="NumerTelefonu" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IdAdresT" msprop:design-time-name="9e3f47f5-c7da-498c-96d1-69f8a6b3f27e" msprop:DbColumnName="IdAdresT" msprop:FriendlyName="IdAdresT" type="xs:int" />
+                  <xs:element name="Ulica" msprop:design-time-name="82ba1b15-92f0-4662-9beb-dafe6d5c7768" msprop:DbColumnName="Ulica" msprop:FriendlyName="Ulica">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Miasto" msprop:design-time-name="3c8b3283-d55d-477a-9d50-4f780b514c29" msprop:DbColumnName="Miasto" msprop:FriendlyName="Miasto">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="KodPocztowy" msprop:design-time-name="5dd8b90c-7101-4d42-9c7d-ad653f8a4e2e" msprop:DbColumnName="KodPocztowy" msprop:FriendlyName="KodPocztowy">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NumerLokalu" msprop:design-time-name="a0796d41-7277-4676-a3ca-34b00dd5232b" msprop:DbColumnName="NumerLokalu" msprop:FriendlyName="NumerLokalu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DataUtworzenia" msprop:design-time-name="3abb87c0-2f1b-468a-b3aa-26cb8b07e4ec" msprop:DbColumnName="DataUtworzenia" msprop:FriendlyName="DataUtworzenia" type="xs:dateTime" />
+                  <xs:element name="DataModyfikacji" msprop:design-time-name="f80bc6b1-7d7b-4459-b56d-88860c99b84a" msprop:DbColumnName="DataModyfikacji" msprop:FriendlyName="DataModyfikacji" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Imię_x0020_i_x0020_Nazwisko" msdata:ReadOnly="true" msprop:design-time-name="3b6f30af-a7ca-4b34-929e-71b3a5c295f2" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="Imię i Nazwisko" msprop:ComputedColumnExpression="Imie +' ' + Nazwisko">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="61" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Wiek" msdata:ReadOnly="true" msprop:design-time-name="296d3124-3f13-4851-9890-68535eb04ffb" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="Wiek" msprop:ComputedColumnExpression="2022 - year(DataUrodzenia)" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_FactTransakcje" msprop:design-time-name="a2983800-d772-4849-ab59-57326d09b89f" msprop:FriendlyName="Tranzakcje" msprop:DbSchemaName="dbo" msprop:DbTableName="FactTransakcje" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IdKlient" msprop:design-time-name="23bfa19b-2625-467a-abe3-d25796e82cfb" msprop:DbColumnName="IdKlient" msprop:FriendlyName="IdKlient" type="xs:int" />
+                  <xs:element name="IdPracownika" msprop:design-time-name="4998de38-16f9-4421-bd59-56d44f13e1cb" msprop:DbColumnName="IdPracownika" msprop:FriendlyName="IdPracownika" type="xs:int" />
+                  <xs:element name="IdCzasu" msprop:design-time-name="5a00d7b5-f9e8-47ce-a8f5-8873ce0f95a8" msprop:DbColumnName="IdCzasu" msprop:FriendlyName="IdCzasu" type="xs:int" />
+                  <xs:element name="SumarycznaKwota" msprop:design-time-name="78d225ab-34b8-464d-a93c-6e345122103d" msprop:DbColumnName="SumarycznaKwota" msprop:FriendlyName="SumarycznaKwota" type="xs:decimal" />
+                  <xs:element name="LiczbaOperacji" msprop:design-time-name="d0618773-341b-4182-a507-5abe52bad355" msprop:DbColumnName="LiczbaOperacji" msprop:FriendlyName="LiczbaOperacji" type="xs:int" />
+                  <xs:element name="DataUtworzenia" msprop:design-time-name="fd9cb7aa-6f54-4c09-b6b6-9490f69df730" msprop:DbColumnName="DataUtworzenia" msprop:FriendlyName="DataUtworzenia" type="xs:dateTime" />
+                  <xs:element name="DataModyfikacji" msprop:design-time-name="64b26d4c-11be-4327-b544-749b71a743e3" msprop:DbColumnName="DataModyfikacji" msprop:FriendlyName="DataModyfikacji" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimCzas" />
+          <xs:field xpath="IdCzasu" />
+        </xs:unique>
+        <xs:unique name="dbo_DimPracownik_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimPracownik" />
+          <xs:field xpath="IdPracownika" />
+        </xs:unique>
+        <xs:unique name="dbo_DimKlient_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimKlient" />
+          <xs:field xpath="IdKlient" />
+        </xs:unique>
+        <xs:unique name="dbo_FactTransakcje_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_FactTransakcje" />
+          <xs:field xpath="IdKlient" />
+          <xs:field xpath="IdPracownika" />
+          <xs:field xpath="IdCzasu" />
+        </xs:unique>
+        <xs:keyref name="TranzakcjaJestWCzasie" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FactTransakcje" />
+          <xs:field xpath="IdCzasu" />
+        </xs:keyref>
+        <xs:keyref name="KlientDokonujeTransakcji" refer="dbo_DimKlient_Constraint1">
+          <xs:selector xpath=".//dbo_FactTransakcje" />
+          <xs:field xpath="IdKlient" />
+        </xs:keyref>
+        <xs:keyref name="PracownikZawieraTransakcje" refer="dbo_DimPracownik_Constraint1">
+          <xs:selector xpath=".//dbo_FactTransakcje" />
+          <xs:field xpath="IdPracownika" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Tranzakcje xmlns="" />
+  </Schema>
+</DataSourceView>
